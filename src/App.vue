@@ -1,4 +1,17 @@
 <script setup lang="ts">
+import { RouterLink, RouterView } from "vue-router";
+import MainHeader from "./components/MainHeader.vue";
+import MainFooter from "./components/MainFooter.vue";
+</script>
+<template>
+  <!-- 전체 레이아웃 -->
+  <div>
+    <MainHeader />
+    <div>컨텐츠영역</div>
+    <MainFooter />
+  </div>
+</template>
+<!-- <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
@@ -82,4 +95,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
