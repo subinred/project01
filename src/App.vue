@@ -6,8 +6,8 @@ import MainFooter from "./components/MainFooter.vue";
 <template>
   <!-- 전체 레이아웃 -->
   <div class="main-wrap">
-    <MainHeader class="main-header" />
-    <div>컨텐츠영역</div>
+    <MainHeader />
+    <div class="main-contents">컨텐츠영역</div>
     <MainFooter />
   </div>
 </template>
@@ -15,5 +15,9 @@ import MainFooter from "./components/MainFooter.vue";
 <style scoped>
 .main-wrap {
   width: 100%;
+}
+.main-contents {
+  width: 80%;
+  text-align: center;
 }
 </style>
