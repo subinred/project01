@@ -6,19 +6,19 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >고객센터</a
+              <router-view class="nav-link active" aria-current="page" href="#"
+                >고객센터</router-view
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">관심상품</a>
+              <router-view class="nav-link" href="#">관심상품</router-view>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">마이페이지</a>
+              <router-view class="nav-link" href="#">마이페이지</router-view>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">로그인</a>
+              <router-view class="nav-link" href="#">로그인</router-view>
             </li>
           </ul>
         </div>
@@ -33,16 +33,18 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Style</a>
+              <router-view class="nav-link active" aria-current="page" href="#"
+                >Style</router-view
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <router-view class="nav-link" href="#">Shop</router-view>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <router-view class="nav-link" href="#">About</router-view>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">검색아이콘</a>
+              <router-view class="nav-link" href="#">검색아이콘</router-view>
             </li>
           </ul>
         </div>
